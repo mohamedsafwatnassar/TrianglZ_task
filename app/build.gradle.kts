@@ -9,14 +9,12 @@ plugins {
 
 android {
     namespace = "com.trianglz.chatapp"
-    compileSdk {
-        version = release(34)
-    }
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.trianglz.chatapp"
         minSdk = 26
-        targetSdk = 34
+        targetSdk = 36
         versionCode = 1
         versionName = "1.0"
 
